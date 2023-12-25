@@ -9,7 +9,7 @@ let highScorePoint = 3500;
 buttonOne.addEventListener('click', (e) =>{
 const scorLine = document.querySelector('.scoreline')
 curVal =  curVal + 1 ; 
-scorLine.innerHTML = `<p class="scoreline">Score :${curVal} </p>`
+scorLine.innerHTML = `<p class="scoreline">Score :${curVal} </p>`   
 checkHighScore()
 })
 
